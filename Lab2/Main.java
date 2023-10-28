@@ -94,7 +94,7 @@ public class Main {
                     System.out.println("No Operation Exists For Your Choice");
             }
             if (choice == 0) {
-                System.out.println("Exiting From Loop...");
+                System.out.println("Exiting From Loop... ");
                 break;
             }
         }
