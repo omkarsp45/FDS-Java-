@@ -1,5 +1,7 @@
 import java.util.*;
 
+// Include package after cloning if necessary according to IDE or compiler 
+
 /**
  * SortingOperations is a subclass of MyLongArray that provides sorting operations on an array of long values.
  */
