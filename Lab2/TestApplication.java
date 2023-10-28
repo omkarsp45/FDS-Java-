@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class TestApplication {
     public static void main(String[] args) {
@@ -20,7 +19,7 @@ public class TestApplication {
 
         System.out.println(
                 "1.Find Index Number Of Specific Element.\n2.Insert Element At End Of Array.\n3.Find Value Of Element At Specific Index.\n4.Delete Specific Element In an Array.\n5.Display All Elements Of Array.\n6.Delete Duplicate Elements In an Array.\n7.Insert Element At Specific Index.\n8.Delete Element At Specific Index.\n0.Stop Performing Operations.");
-        for (int i = 0; true; i++) {
+        while(true) {
             System.out.print("\nChoose Operation : ");
             int choice = sc.nextInt();
             switch (choice) {
