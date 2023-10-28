@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println(
                 "1.Find Index Number Of Specific Element.\n2.Insert Element At End Of Array.\n3.Find Value Of Element At Specific Index.\n4.Delete Specific Element In an Array.\n5.Display All Elements Of Array.\n6.Delete Duplicate Elements In an Array.\n7.Insert Element At Specific Index.\n8.Delete Element At Specific Index.\n0.Stop Performing Operations.");
-        for (int i = 0; true; i++) {
+        while(true) {
             System.out.print("\nChoose Operation : ");
             int choice = sc.nextInt();
             switch (choice) {
@@ -104,7 +104,7 @@ public class Main {
 
 class MyLongArray {
     private long[] a;
-    private int currentIndex;
+    protected int currentIndex;
 
     public MyLongArray(int size) {
         a = new long[size];
