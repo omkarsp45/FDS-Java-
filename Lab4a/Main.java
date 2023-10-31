@@ -18,7 +18,7 @@ class Queue<T> {
      * @param capacity the maximum capacity of the queue
      */
     public Queue(int capacity) {
-        arr = (T[]) new Object[capacity];
+        arr = (T[])new Object[capacity];
         front = 0;
         rear = -1;
         size = 0;
@@ -31,7 +31,7 @@ class Queue<T> {
      */
     public void enqueue(T element) {
         if (isFull()) {
-            throw new IllegalStateException("Queue is Full");  //Exception Handling
+            throw new IllegalStateException("Queue is a Full");  //Exception Handling
         }
         rear = (rear + 1) % arr.length;
         arr[rear] = element;
